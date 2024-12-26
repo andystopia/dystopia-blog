@@ -310,7 +310,7 @@ instance DystopiaMonad DystopiaRenderer where
               }
           )
           articlePandoc
-  rootDir = return "/blog/"
+  rootDir = return "/andystopia-blog/"
 
 main :: IO ()
 main = do
